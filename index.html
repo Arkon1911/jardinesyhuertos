@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <style>
+      /* Aplica la regla de estilo solo a las imágenes dentro de los cards, excluyendo la imagen del navbar */
+      .card img:not(.navbar-image) {
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+      }
+      /* Aplica el estilo al footer */
+      footer {
+        background-color: #008000; /* Color verde de fondo */
+        color: #ffffff; /* Letras en blanco */
+        padding: 20px;
+        text-align: center;
+      }
+
+      .redes-sociales a {
+        display: inline-block;
+        margin: 0 10px; /* Espacio entre los íconos */
+      }
+
+      .redes-sociales img {
+        width: 24px; /* Tamaño del favicon */
+        height: 24px;
+      }
+
+      /* Cambia el color de fondo */
+      .navbar-custom {
+        background-color: #33db24; /* Cambia a tu color deseado */
+      }
+
+      /* Cambia el color del texto y del enlace */
+      .navbar-custom .navbar-brand,
+      .navbar-custom .navbar-text,
+      .navbar-custom .nav-link {
+        color: #ffffff; /* Cambia a tu color deseado */
+      }
+    </style>
+
+    <title>Jardineria y Huertos Sustentables</title>
+    <meta name="description" content="Jardineria y Huertos " />
+    <meta name="author" content="Sebastián Andrés Araya A" />
+
+    <!-- Bootstrap-->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <!-- Boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!--  jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Fontawesome-->
+    <script
+      src="https://kit.fontawesome.com/c5e37c057d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--Header-->
+
+    <nav class="navbar" style="background-color: #baf097">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img
+            class="navbar-image"
+            src="./assets/img/icono favicon.jpeg"
+            alt="Imagen en la navbar"
+            width="50"
+            height="40"
+            class="d-inline-block me-2 mx-3"
+          />
+          <span class="ms-2">Jardineria y Huertos Sustentables</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cursos-disponibles"
+                >Cursos Disponibles</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#descargables">Descargables</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Header end-->
+
+    <!--carrousel-->
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner" id="inicio">
+        <div class="carousel-item active">
+          <img
+            src="./assets/img/huerto 01.jpg"
+            style="height: 580px"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/img/huerto 04.jpg"
+            style="height: 580px"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/img/huerto 05.jpg"
+            style="height: 580px"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="./assets/img/huerto 06.jpg"
+            style="height: 580px"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/img/huerto 07.jpg"
+            style="height: 580px"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/img/huerto 08.jpg"
+            style="height: 580px"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/img/huerto 09.jpg"
+            style="height: 580px"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/img/huerto 11.jpg"
+            style="height: 580px"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/img/huerto 12.jpg"
+            style="height: 580px"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/img/huerto_2.jpg"
+            style="height: 580px"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      <!--Carousel end-->
+    </div>
+    <!--Quienes Somos-->
+    <section style="background-color: #adcee9">
+      <div id="quienes-somos" class="text-center quienes-somos">
+        <h2 class="text-color fw-bolder mb-4">QUIENES SOMOS</h2>
+
+        <div class="row align-items-start mt-3">
+          <div class="col-md-4 text-verde">
+            <i class="fa-solid fa-cloud-sun mx-2 fa-2x p-3"></i>
+          </div>
+          <div class="col-md-4 text-verde">
+            <i class="fa-solid fa-star mx-2 fa-2x p-3"></i>
+          </div>
+          <div class="col-md-4 text-verde">
+            <i class="fa-solid fa-plane mx-2 fa-2x p-3"></i>
+          </div>
+        </div>
+        <div class="row align-items-start">
+          <div class="col-md-4">
+            <a
+              ><b>Técnico Agrícola </b>
+              <p style="text-align: justify">
+                Con múltiples intereses en las áreas de las ciencias naturales,
+                formado técnicamente en el Instituto Agrícola Pascual Baburizza
+                en la Ciudad de Los Andes, realizando práctica profesional en el
+                Instituto de Investigaciones Agropecuarias en Santiago de Chile
+                (Laboratorio de Entomología), asesor técnico para proyectos
+                educativos del Fondo de Protección Ambiental de la Comisión
+                Nacional del Medio Ambiente CONAMA entre otros.
+              </p>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a
+              ><b>Educador Ambiental </b>
+              <p style="text-align: justify">
+                Dedicado desde el año siguiente a mi titulación al servicio y  
+                            desarrollo de la gestión pública y social.
+                Asesorando técnicamente.               proyectos ambientales en
+                distintas comunas de la Región               Metropolitana para
+                agrupaciones vecinales sin fines de lucro,              
+                promotor y fundador de la primera unidad de Educación Ambiental
+                en               la comuna de Estación Central, dependiente del
+                Departamento de               Educación Municipal en dicha labor
+                junto a un equipo multidisciplinario logramos certificar
+                ambientalmente a la totalidad               de los
+                establecimientos educativos municipalizados incluidos          
+                    jardines infantiles.
+              </p>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a
+              ><b>Autodidacta,</b>
+              <p style="text-align: justify">
+                Siempre estoy interesado en hacer cosas con mis propias manos,
+                me gusta la jardinería, los huertos, con cierta afinidad por las
+                tuercas y pernos, algunas veces también soy "Bob el Constructor"
+                y la tecnología me acompaña a todos lados (este desarrollo es
+                producto de ello).
+              </p>
+            </a>
+          </div>
+        </div>
+        <!--Quienes somos -->
+      </div>
+      <div class="section-heading text-center mt-3">
+        <a href="#inicio"><span style="color: rgb(12, 12, 12)">Volver al Inicio</span></a>
+      </div>
+    </section>
+
+    <!-- Cursos Disponibles -->
+    <section style="background-color: #f1e31271">
+      <div class="cursos-disponibles section" id="cursos-disponibles">
+        <div class="container mt-2 pt-3">
+          <h2 class="text-color fw-bolder text-center pb-4">
+            CURSOS DISPONIBLES
+          </h2>
+
+          <div class="row justify-content-center px-5">
+            <div class="col-lg-3 col-md-6 mx-auto mb-3">
+              <div class="card text-center" style="width: 18rem">
+                <img
+                  src="./assets/img/huerto 08.1.jpg"
+                  class="card-img-top mx-auto"
+                  alt="imagen de huertos"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bolder text-verde">
+                    Huertos
+                  </h5>
+                  <p class="card-text">
+                    Material en desarrollo construido con experiencias
+                    personales y ejemplificado en presentaciones de estilo
+                    PowerPoint e Imágenes. (En la sección descargas podrá bajar
+                    dichos archivos.)
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mx-auto mb-3">
+              <div class="card text-center" style="width: 18rem">
+                <!-- la clase css mx-auto surtio efecto al ingresarla dentro del elemento <img> -->
+                <img
+                  src="./assets/img/Compostaje.jpg"
+                  class="card-img-top mx-auto"
+                  alt="imagen de compostera plastica negra"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bolder text-verde">
+                    Compostaje
+                  </h5>
+                  <p class="card-text">
+                    Material que fue utilizado para enseñar el proceso en
+                    imágenes con un formato de presentaciones de tipo
+                    PowerPoint. (En la sección descargas podrá bajar dichos
+                    contenidos).
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mx-auto mb-3">
+              <div class="card text-center" style="width: 18rem">
+                <img
+                  src="./assets/img/Jardineria.jpeg"
+                  class="card-img-top mx-auto"
+                  alt="imagen que representa articulos de jardineria"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bolder text-verde">
+                    Jardineria
+                  </h5>
+                  <p class="card-text">
+                    Breve ciclo de material escrito en formato para lectura
+                    acompañado con imágenes y diagramas explicativos. (En la
+                    sección descargas podrá bajar dichos contenidos)
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <div class="card text-center" style="width: 18rem">
+                <img
+                  src="./assets/img/Agrovoltaica.jpeg"
+                  class="card-img-top mx-auto"
+                  alt="imagen de referencia energia Agrovoltaica"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-center fw-bolder text-verde">
+                    Energia Solar
+                  </h5>
+                  <p class="card-text">
+                    Manual disponible en formato para lectura, con explicaciones
+                    de fundamentos y ejemplos prácticos para su desarrollo
+                    aplicado a la vida real. (En la sección descargas podrá
+                    bajar dichos contenidos)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-heading text-center mt-3">
+        <a href="#inicio"><span style="color: rgb(12, 12, 12)">Volver al Inicio</span></a>
+      </div>
+    </section>
+
+    <!--Descargables-->
+    <section style="background-color: #e4bbeec0">
+        <div id="descargables" class="text-center descargables">
+        <h2 class="text-color fw-bolder mb-4">DESCARGABLES</h2>
+        <!-- este div contenedor nos permite afectar a todas las card para que todas sus alturas sean uniformes -->
+
+        <div class="row align-items-start mt-3">
+          <div class="col-md-3 text-verde">
+            <img src="./assets/img/icons8-roots-64.png" class="card-img-top mx-auto" alt="imagen de compostera plastica negra" style="width: 50px; height: 50px;">
+
+          </div>
+          <div class="col-md-3 text-verde">
+            <img
+                  src="./assets/img/icons8-fertilizer-64.png"
+                  class="card-img-top mx-auto"
+                  alt="imagen de compostera plastica negra" style="width: 50px; height: 50px;"/>
+          </div>
+          <div class="col-md-3 text-verde">
+            <img
+                  src="./assets/img/icons8-gardening-plant-64.png"
+                  class="card-img-top mx-auto"
+                  alt="imagen de compostera plastica negra" style="width: 50px; height: 50px;"/>
+          </div>
+          <div class="col-md-3 text-verde">
+            <img
+                  src="./assets/img/icons8-sun-64.png"
+                  class="card-img-top mx-auto"
+                  alt="imagen de compostera plastica negra" style="width: 50px; height: 50px;"/>
+          </div>
+        </div>
+
+        <div class="row align-items-start">
+          <div class="col-md-3">
+            <a
+              ><b>Huertos </b>
+              <p>Aquí dejo material para descargas.</p>
+              
+              <a
+                href="./assets/descargables/Programa Eco Huerto Urbano.pdf"
+                download
+                >1.- Programa Ecohuerto</a
+              >
+
+              <a href="./assets/descargables/Eco Huerto Urbano.pdf" download
+                >2.- Curso Ecohuerto Urbano</a
+              >
+            </a>
+          
+          </div>
+          <div class="col-md-3">
+            <a
+              ><b>Compostaje </b>
+              <p>Aquí dejo material para descargas.</p>
+              
+              <a href="./assets/descargables/Proceso de Compostaje.pdf" download
+                >1.- Proceso de Compostaje</a
+              >
+
+              <a href="./assets/descargables/Material de Apoyo.pdf" download
+                >2.- Material de Apoyo</a
+              >
+            </a>
+          
+          </div>
+          <div class="col-md-3">
+            <a
+              ><b>Jardineria</b>
+              <p>Aquí dejo material para descargas.</p>
+              
+                <a
+                href="./assets/descargables/Clase 01 Huertos en el Hogar.pdf"
+                download
+                >1.- Huertos y Jardines</a>
+
+                <a
+                href="./assets/descargables/Clase 02 Huertos en el Hogar.pdf"
+                download
+                >2.- Huertos y Jardines (Material por actualizar)</a>
+              
+          </div>
+          <div class="col-md-3">
+            <a
+              ><b>Energía Solar</b>
+              <p>Aquí dejo material para descargas.</p>
+              
+                <a
+                href="./assets/descargables/Cartilla energía solar.pdf"
+                download
+                >1.- Cartilla y modelos prácticos</a></a>
+              
+          </div>
+        </div>
+      </div>
+    <div class="section-heading text-center mt-3">
+      <a href="#inicio"><span style="color: rgb(12, 12, 12)">Volver al Inicio</span></a>
+    </div>
+    </section>
+    <!--Descargables-->
+
+    <!--Contacto-->
+    <section style="background-color: #e7ecb7d3;">
+      <div class="contact section" id="contacto">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 offset-lg-4">
+            <div class="section-heading text-center mt-3">
+              <h2 class="text-color fw-bolder">CONTACTO</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="contact-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <form id="contact-form" action="" method="post">
+              <div class="mb-3" id="form-control">
+                <label for="exampleFormControlInput1" class="form-label"
+                  >Nombre</label
+                >
+                <input
+                  type="name"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Nombre completo Formulario en desarrollo"
+                />
+              </div>
+              <div class="mb-3" id="form-control"><label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control"id="exampleFormControlInput1"placeholder="email@ejemplo.com Formulario en desarrollo"/>
+              </div>
+              <div class="mb-4">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label><textarea class="form-control" id="exampleFormControlTextarea1"
+                  rows="3"
+                  placeholder="Comentanos tus dudas Formulario en desarrollo"
+                ></textarea>
+              </div>
+
+              <button type="button"class="btn btn-viajes"data-bs-toggle="modal"data-bs-target="#modalEnviar">Enviar</button>
+            </form>
+
+            <div class="section-heading text-center mt-3">
+              <a href="#inicio"><span style="color: rgb(12, 12, 12)">Volver al Inicio</span></a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+       </section>
+      <!--Contacto-->
+    
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="modalEnviar"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Mensaje enviado
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">Tu mensaje ha sido enviado con éxito!</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-cerrar"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal-->
+
+    <!--Footer-->
+    <footer>
+      <div class="redes-sociales">
+        <h3>Síguenos en redes sociales</h3>
+        <a href="https://www.facebook.com/KeepCalm1911/" target="_blank"
+          ><img
+            src="./assets/img/icons8-facebook-64.png"
+            alt="Personal Facebook" /></a
+        ><span style="color: white">Sígueme en Facebook</span>
+        <a href="https://www.instagram.com/cargoclickchile/" target="_blank"
+          ><img
+            src="./assets/img/icons8-instagram-64.png"
+            alt="Empresa cargoclickchile" /></a
+        ><span style="color: white">Sobre CargoClick</span>
+        <a
+          href="https://www.linkedin.com/in/sebasti%C3%A1n-araya-1a507041/"
+          target="_blank"
+          ><img
+            src="./assets/img/icons8-linkedin-64.png"
+            alt="Personal linkedin" /></a
+        ><span style="color: white">Sígueme en LinkedIn</span>
+
+        <a href="https://www.instagram.com/transferclick/" target="_blank"><img src="./assets/img/icons8-instagram-64.png"alt="Empresa transferclick" /></a>
+        
+        <span style="color: white">Sobre TransferClick</span>
+
+        <div class="section-heading text-center mt-3">
+          <a href="#inicio"><span style="color: rgb(250, 248, 248)">Volver al Inicio</span></a>
+        </div>
+      </div>
+      
+
+    </footer>
+
+    <!--Footer-->
+
+    <script>
+      $(document).ready(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+    <!-- Bootstrap & JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
